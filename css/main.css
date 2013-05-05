@@ -31,7 +31,7 @@ header {
 #title_section {
 	background:#464646;
 	width:960px;
-	height:67px;
+	height:107px;
 	padding:0;
 	margin:0 auto;
 }
@@ -180,7 +180,7 @@ footer {
 }
 
 .pad_vid2 {
-	padding-top:35px;
+	padding-top: 50px;
 }
 
 #screenshots {
@@ -228,11 +228,11 @@ footer {
 	text-shadow: 0px 1px 2px #999;
 	-moz-text-shadow: 0px 1px 2px #999;
 	-webkit-text-shadow: 0px 1px 2px #999;
-	padding:0;
-	margin:0;
-	color:#04be9d;
-	font-size:.90em;
-	text-align:center;
+	padding: 0px;
+	margin: 0;
+	color: #04be9d;
+	font-size: 0.87em;
+	text-align: center;
 }
 
 #video_info p {
@@ -281,4 +281,8 @@ footer {
 	padding-top:10px;
 	float:left;
 	width:140px;
+}
+.back_button a{
+	margin-left:20px;
+	font-size:1.5em;
 }
