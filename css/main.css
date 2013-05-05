@@ -13,6 +13,7 @@ a, a:link, a:visited {
 	color:#04be9d;
 }
 
+/* ===================== main divs ================================== */
 #wrapper {
 	max-width:960px;
 	margin:0 auto;
@@ -28,6 +29,15 @@ header {
 	width:960px;
 	height:214px;
 }
+
+footer {
+	background:url(../images/footer.png) no-repeat;
+	width:1256px;
+	height:292px;
+	margin:0 auto;
+	padding:0;
+}
+
 #title_section {
 	background:#464646;
 	width:960px;
@@ -36,15 +46,6 @@ header {
 	margin:0 auto;
 }
 
-.grey_shadow {
-	text-shadow: 0px 1px 2px #000;
-	-moz-text-shadow: 0px 1px 2px #000;
-	-webkit-text-shadow: 0px 1px 2px #000;
-	color:#444;
-	font-size:.87em;
-}
-	
-
 #title_section p {
 	padding:0;
 	margin:0;
@@ -52,10 +53,6 @@ header {
 
 .title_section {
 	margin-left:350px;
-}
-
-.paddingt {
-	padding-top:35px;
 }
 
 #content {
@@ -68,6 +65,8 @@ header {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:1.6em;
 }
+
+/* =========================== full sail ad page =========================== */
 
 #content_fullsail_ad {
 	width:960px;
@@ -100,22 +99,7 @@ video {
 	margin: 0 auto;
 }
 
-footer {
-	background:url(../images/footer.png) no-repeat;
-	width:1256px;
-	height:292px;
-	margin:0 auto;
-	padding:0;
-}
 
-.l_shadow {
-	text-shadow: 0px 1px 2px #333;
-	-moz-text-shadow: 0px 1px 2px #333;
-	-webkit-text-shadow: 0px 1px 2px #333;
-	color:#444;
-	font-size:.87em;
-	padding-left:30px;
-}
 
 #vid1 {
 	float:left;
@@ -141,48 +125,6 @@ footer {
 	height:539px;
 }
 
-.light_shadow {
-	text-shadow: 0px 1px 2px #999;
-	-moz-text-shadow: 0px 1px 2px #999;
-	-webkit-text-shadow: 0px 1px 2px #999;
-	padding:0;
-	margin-bottom:10px;
-}
-
-.border {
-	border:1px solid #ccc;
-	padding:10px 10px;
-	float:left;
-}
-
-.clear {
-	clear:both;
-}
-
-.info {
-	color:#121212;
-	font-size:.55em;
-	font-family:Arial, Helvetica, sans-serif;
-	padding:20px;
-	text-align:left;
-}
-
-.info_fs_ad {
-	color:#121212;
-	font-size:.55em;
-	font-family:Arial, Helvetica, sans-serif;
-	padding-left:30px;
-	text-align:left;
-}
-
-.pad_vid1 {
-	padding-top:20px;
-}
-
-.pad_vid2 {
-	padding-top: 50px;
-}
-
 #screenshots {
 	width:920px;
 	height:250px;
@@ -201,38 +143,6 @@ footer {
 	display:inline;
 	padding-left:10px;
 	margin:0;
-}
-.green_shadow {
-	text-shadow: 0px 1px 2px #999;
-	-moz-text-shadow: 0px 1px 2px #999;
-	-webkit-text-shadow: 0px 1px 2px #999;
-	padding:0;
-	margin-bottom:10px;
-	color:#04be9d;
-	font-size:1.6em;
-	text-align:left;
-}
-
-.green_shadow_fs_ad {
-	text-shadow: 0px 1px 2px #999;
-	-moz-text-shadow: 0px 1px 2px #999;
-	-webkit-text-shadow: 0px 1px 2px #999;
-	padding:0;
-	margin-top:5px;
-	color:#04be9d;
-	font-size:1.6em;
-	text-align:center;
-}
-
-.green_shadow_smaller {
-	text-shadow: 0px 1px 2px #999;
-	-moz-text-shadow: 0px 1px 2px #999;
-	-webkit-text-shadow: 0px 1px 2px #999;
-	padding: 0px;
-	margin: 0;
-	color: #04be9d;
-	font-size: 0.87em;
-	text-align: center;
 }
 
 #video_info p {
@@ -282,6 +192,111 @@ footer {
 	float:left;
 	width:140px;
 }
+
+
+
+/* ================================ reusuable classes ================================ */
+
+.grey_shadow {
+	text-shadow: 0px 1px 2px #000;
+	-moz-text-shadow: 0px 1px 2px #000;
+	-webkit-text-shadow: 0px 1px 2px #000;
+	color:#444;
+	font-size:.87em;
+}
+
+.paddingt {
+	padding-top:35px;
+}
+
+
+.l_shadow {
+	text-shadow: 0px 1px 2px #333;
+	-moz-text-shadow: 0px 1px 2px #333;
+	-webkit-text-shadow: 0px 1px 2px #333;
+	color:#444;
+	font-size:.87em;
+	padding-left:30px;
+}
+
+
+.light_shadow {
+	text-shadow: 0px 1px 2px #999;
+	-moz-text-shadow: 0px 1px 2px #999;
+	-webkit-text-shadow: 0px 1px 2px #999;
+	padding:0;
+	margin-bottom:10px;
+}
+
+.border {
+	border:1px solid #ccc;
+	padding:10px 10px;
+	float:left;
+}
+
+.clear {
+	clear:both;
+}
+
+.info {
+	color:#121212;
+	font-size:.55em;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:20px;
+	text-align:left;
+}
+
+.info_fs_ad {
+	color:#121212;
+	font-size:.55em;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	text-align:left;
+}
+
+.pad_vid1 {
+	padding-top:20px;
+}
+
+.pad_vid2 {
+	padding-top: 50px;
+}
+
+
+.green_shadow {
+	text-shadow: 0px 1px 2px #999;
+	-moz-text-shadow: 0px 1px 2px #999;
+	-webkit-text-shadow: 0px 1px 2px #999;
+	padding:0;
+	margin-bottom:10px;
+	color:#04be9d;
+	font-size:1.6em;
+	text-align:left;
+}
+
+.green_shadow_fs_ad {
+	text-shadow: 0px 1px 2px #999;
+	-moz-text-shadow: 0px 1px 2px #999;
+	-webkit-text-shadow: 0px 1px 2px #999;
+	padding:0;
+	margin-top:5px;
+	color:#04be9d;
+	font-size:1.6em;
+	text-align:center;
+}
+
+.green_shadow_smaller {
+	text-shadow: 0px 1px 2px #999;
+	-moz-text-shadow: 0px 1px 2px #999;
+	-webkit-text-shadow: 0px 1px 2px #999;
+	padding: 0px;
+	margin: 0;
+	color: #04be9d;
+	font-size: 0.87em;
+	text-align: center;
+}
+
+
 .back_button a{
 	margin-left:20px;
 	font-size:1.5em;
